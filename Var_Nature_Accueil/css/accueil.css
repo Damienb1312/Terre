@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bgMer{
+    background-image: url("../img/bgMer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: auto;
+}
+.reseauxGroupe{
+    padding-top: 8vh;
+}
+.reseauxSociaux{
+    width: 3vw;
+}
+.logoVarNature{
+    width: 6vw;
+    padding-top: 3vh;
+}
+.menuGroupe{
+    padding-top: 8vh;
+}
+.menu{
+    font-size: 2em;
+    margin-right: 2em;
+    color: black;
+    text-decoration: none!important;
+}
+
+.noBullet{
+    list-style-type: none;
+}
+.menu:hover{
+    background-color: #0A5957;
+    color: white;
+}
+.verticalLine{
+    border: none;
+    border-left: 3px solid black;
+    height: 40px;
+}
+.nav-item:hover{
+    background-color: #0A5957;
+    color: white!important;
+}
+/* .border-right{
+    border-right: 2px #807e7e solid!important;
+} */
+.separateurPoints{
+    background-image: url("../img/separateurPoints.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+}
+/* .mainArbre{
+    padding-top: 3vh;
+} */
+.mainArbre{
+    background-image: url("../img/mainArbre.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65vh;
+    position: relative;
+}
+.titrePrincipal{
+    margin-top: -58vh;
+    position: absolute;
+}
+.H3Header{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #0a5957;
+    font-size: 3em;
+}
+.H1Header{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #ea5a00;
+    font-size: 4em;
+}
+.H5Header{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #0a5957;
+}
+.blocIconeEcolo{
+    overflow: hidden;
+}
+/* SECTION LOGOS ECOLOS */
+.surTitreLogo{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.9em;
+}
+.sousTitreLogo{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 2.9em;
+    margin-top: -0.6em;
+}
+.paragrapheLogo{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.5em;
+    margin-top: -0.5em;
+}
+/* SECTION IMAGE TERRE */
+#myCanvas{
+    position: absolute;
+    z-index: 0!important;
+}
+.imgTerre{
+    z-index: -10!important;
+}
+.titreTerreContainer{
+    margin-left: -10vw;
+    z-index: 0;
+}
+.titreCiel{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 5vw;
+}
+
+.titreTerre{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #a63f02;
+    font-size: 9vw;
+    margin-top: -3vh;
+}
+
+.blocParagrapheButtonTerre {
+    margin-left: -13vw;
+}
+
+.blocParagrapheButtonHebergement {
+    margin-left: -8vw;
+}
+.paragrapheTerre{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.5vw;
+}
+/*BUTTON DECOUVRIR*/
+.btnDecouvrir{
+    border-radius: 0%;
+    border: 7px solid white;
+    font-size: 2vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    z-index: 1000!important;
+}
+
+/* SECTION IMAGE MER */
+#myCanvas2{
+    position: absolute;
+    z-index: 5;
+}
+.titreMerContainer{
+    text-align: right;
+    z-index: 3;
+}
+.titreTerreEt{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 5vw;
+}
+
+.titreMer{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #072f57;
+    font-size: 9vw;
+    margin-top: -3vh;
+}
+
+.paragrapheMer{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.5vw;
+    text-align: right;
+   
+}
+/*BUTTON DECOUVRIR*/
+.btnDecouvrir{
+    border-radius: 0%;
+    border: 7px solid white;
+    font-size: 2vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* HEBERGEMENT */
+
+/* SECTION IMAGE HEBERGEMENT */
+#myCanvas3{
+    position: absolute;
+}
+.titreHebergementContainer{
+    margin-left: -15vw;
+    z-index: 2;
+}
+.titreHebergement{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 9vw;
+}
+
+.paragrapheHebergement{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.5vw;
+   
+}
+/*BUTTON DECOUVRIR*/
+.btnDecouvrir{
+    border-radius: 0%;
+    border: 7px solid white;
+    font-size: 2vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* SECTION IMAGE ACTIVITES */
+#myCanvas4{
+    position: absolute;
+    z-index: 5;
+}
+.titreActivitesContainer{
+    text-align: right;
+    z-index: 3;
+    margin-left: 28vw;
+    
+}
+/* .titreTerreEt{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 5vw;
+} */
+
+.titreActivites{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #f57c0b;
+    font-size: 9vw;
+   
+}
+
+.paragrapheActivites{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #3a3a3a;
+    font-size: 1.5vw;
+    text-align: right;
+   
+}
+/*BUTTON DECOUVRIR*/
+.btnDecouvrir{
+    border-radius: 0%;
+    border: 7px solid white;
+    font-size: 2vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/*RESPONSIVITE*/
+
+@media screen and (max-width: 769px) {
+    #myCanvas, #myCanvas2, #myCanvas3, #myCanvas4 {
+        display: none;
+    }
+    .titreTerreContainer, .titreHebergementContainer, .titreMerContainer, .titreActivitesContainer {
+        margin-top: 2em;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+    .blocParagrapheButtonTerre, .blocParagrapheButtonHebergement, .blocParagrapheButtonMer, .blocParagrapheButtonActivites {
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+    .titreCiel, .titreTerreEt {
+        font-size: 2em;
+    }
+    .titreTerre, .titreHebergement, .titreMer, .titreActivites {
+        font-size: 3em;
+    }
+    .paragrapheTerre, .btnDecouvrir, .paragrapheHebergement, .paragrapheMer, .paragrapheActivites {
+        font-size: 1em;
+        text-align: center !important;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) {
+    .falseRow {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .titreMerContainer, .titreActivitesContainer{
+        margin-left: 23vw;
+        position: absolute !important;
+    }
+
+    .titreHebergement {
+        margin-top: -3vh;
+    }
+    
+    /*.blocParagrapheButtonTerre, .blocParagrapheButtonHebergement {
+        margin-bottom: -8vw;
+    }*/
+
+    .blocParagrapheButtonMer {
+        margin-bottom: -2rem;
+    }
+    
+    .blocParagrapheButtonActivites {
+        margin-bottom: -5rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1099px) {
+    #myCanvas, #myCanvas2, #myCanvas3, #myCanvas4 {
+        margin-top: 4em;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+    #myCanvas, #myCanvas2, #myCanvas3, #myCanvas4 {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #myCanvas, #myCanvas2, #myCanvas3, #myCanvas4 {
+        margin-top: 6em;
+    }
+}
+/* GRID BS */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .titrePrincipal{
+        margin-top: 0vh;
+        position: absolute;
+        
+    }
+    .quatrePointsHeader{
+        margin-top: 30vh;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .titrePrincipal{
+        margin-top: 0vh;
+        position: absolute;
+    }
+    .quatrePointsHeader{
+        margin-top: 25vh;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .titrePrincipal{
+        margin-top: -20vh;
+        position: absolute;
+    }
+    .quatrePointsHeader{
+        margin-top: 15vh;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 576px) {
+    .titrePrincipal{
+        margin-top: -35vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .quatrePointsHeader{
+        margin-top: 10vh;
+    }
+    .separateurPoints{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        width: auto;
+    }
+}
